@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: #090d16;
+  -webkit-overflow-scrolling: touch; /* smooth momentum scrolling on iOS */
+}
+
+/* Allow scrolling on mobile, but keep scrollbars clean */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
